@@ -1,0 +1,36 @@
+{
+  "title": "cartoes-colecionaveis",
+  "name": "projeto-cartoes-colecionaveis",
+  "version": "1.0.0",
+  "description": "Dependencies and DevDependencies of the cartoes-colecionaveis website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjuniori/projeto-cartoes-colecionaveis.git"
+  },
+  "keywords": [
+    "cartoes-colecionaveis",
+    "",
+    "",
+    ""
+  ],
+  "author": "Washington Júnior (wjuniori.si@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjuniori/projeto-cartoes-colecionaveis/issues",
+    "email": "wjuniori.si@gmail.com"
+  },
+  "homepage": "https://wjuniori.github.io/projeto-cartoes-colecionaveis/",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0"
+  }
+}
