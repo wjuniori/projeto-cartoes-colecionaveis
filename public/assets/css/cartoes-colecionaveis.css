@@ -41,7 +41,7 @@ body {
   border-radius: 5px;
 }
 
-.card-body #fact {
+.card-body .fact {
   font-style: italic;
 }
 

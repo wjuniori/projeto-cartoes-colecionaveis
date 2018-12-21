@@ -20,10 +20,10 @@ var htmlFile = ['./public/assets/*.html'];
 // Minify HTML
 gulp.task('html:minify', function() {
   return gulp.src(htmlFile)
-  // .pipe(htmlMin({
-  //   collapseWhitespace:true
-  // }))
-  // .on("error", notify.onError("Error: <%= error.message %>"))
+  .pipe(htmlMin({
+    collapseWhitespace:true
+  }))
+  .on("error", notify.onError("Error: <%= error.message %>"))
   .pipe(gulp.dest('./'))
   .pipe(browserSync.stream());
 });
@@ -34,8 +34,8 @@ gulp.task('html', ['html:minify']);
 // Minify CSS
 gulp.task('css:minify', function() {
   return gulp.src(cssFiles)
-    // .pipe(cleanCSS())
-    // .pipe(concat('cartoes-colecionaveis.min.css'))
+    .pipe(cleanCSS())
+    .pipe(concat('cartoes-colecionaveis.min.css'))
     .pipe(gulp.dest('./public/dist/css'))
     .pipe(browserSync.stream());
 });
